@@ -1,0 +1,94 @@
+/* Add custom styles here */
+.navbar {
+    background-color: #232f3e;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:focus {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.form-control {
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-outline-success {
+    border-color: #1db954;
+    color: #1db954;
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:focus {
+    background-color: #1db954;
+    color: #ffffff;
+}
+
+.card-text {
+    margin-bottom: 1%; /* Adjust the margin as needed */
+}
+
+.filters-container {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.filters-container h6 {
+    margin-top: 0;
+}
+
+.filter-group {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.filter-group label {
+    display: block;
+}
+
+.apply-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
